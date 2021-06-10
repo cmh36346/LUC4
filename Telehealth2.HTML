@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Telehealth Live Urgent Care</title>
+
+    <!-- Link CSS Style sheet-->
+    <link rel="stylesheet" href="css/Style2.css">
+
+    <!-- include these two, JS and bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--favicon link-->
+    <link rel="icon" href="favicon (1).ico">
+
+  </head>
+  <body>
+    <!--creates a container holding the navigation bar-->
+    <div class="container">
+
+      <!-- Navigation bar  -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #9DC7C8;">
+        <!-- creates the brand name  -->
+
+        <a class="navbar-brand" href="Index2.HTML"><span style="color:white">Live</span> <span style="color:red">Urgent</span><span style="color:white"> Care</span></a>
+
+        <!-- creates the hamburger button when the screen is narrow  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="UrgentCare.HTML">Urgent Care</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Telehealth2.HTML">Telehealth</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="covidtest.html">Covid Testing</a>
+          </li>
+
+          <li>
+          <!-- Creates the menu button  -->
+          <form class="container-fluid justify-content-end">
+            <button type="button" class="btn btn-outline-light ">Menu</button>
+          </form>
+          </li>
+
+        </nav>
+        <!-- End Navigation bar  -->
+      </div>
+      <!-- closes container div  -->
+
+      <!-- creating a front landing page  -->
+      <div class="telehealth-landing">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">Telehealth Medicine</h1>
+            <h2>Your world is <span style="color:red;">online</span> and your health can be too! </h2>
+            <p class="lead">Guaranteed no time spent in the waiting room and on-demand access to care. Connect with one of our experts today for evidence-based medicine and patient education materials to create a custom treatment plan from the comfort and security of your home. We are able to cover a variety of health concerns including initial assessments, non-urgent illnesses and injuries, screenings, and follow-up appointments wherever and whenever you need. </p>
+            <h2>You'll have access to <span style="color:red;">convenient</span> and <span style="color:red;">affordable</span> care 24/7 365 for a flat $35 fee. </h2>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn btn-outline-danger btn-lg">Schedule an Appointment</button>
+              <a class="btn btn-secondary btn-lg" href="#services">Services</a>
+            </div>
+
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+            <img class="rounded-lg-3" src="Images/telehealthmed.png" alt="" width="650">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="empty" style="height: 150px"></div>
+
+      <!-- telehealth services  -->
+      <div id="services"class="telehealth-services">
+        <h1 class="telehealth-title" style="text-align:center">Services</h1>
+        <h6 style="text-align: center">When you’re not feeling well due to an illness or injury or need a prescription refill, our team will provide the fast, quality care. Our staff are trained to provide the support you needs. We believe in healthcare access for all and are accepting both insured and uninsured patients for your convenience.</h6>
+        <br>
+        <div class="row">
+
+          <!-- Injury/Illness  -->
+          <div class="col col-lg-4 col-sm-6 telehealth-services-card">
+            <div class="card rounded-3 shadow-sm">
+              <div class="card-body" style="background-color: #F8F7F9">
+                <h1 class="card-title telehealth-services-card-title text-center">Injuries & Illnesses</h1>
+                <ul class="list telehealth-services-card-list">
+                  <li>Seasonal Allergies</li>
+                  <li>Bronchitis</li>
+                  <li>Cold and FLu Symptoms (cough, sore throat, strep symptoms)</li>
+                  <li>Conjunctivitis (pink eye)</li>
+                  <li>Nausea, Vomiting, Diarrhea</li>
+                  <li>Painful Urination</li>
+                  <li>Rashes</li>
+                  <li>Sinus Infections</li>
+                  <li>Urinary Tract Infections</li>
+                  <li>Medication Prescription Refills</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="empty" style="height: 150px"></div>
+
+
+      <!-- How it works  -->
+      <div class="telehealth-howitworks">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-4 p-0 overflow-hidden shadow-lg">
+            <img class="healthinsurance-img"src="images/health-insurance.jpg" alt="" width="500px">
+          </div>
+
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1">How it Works</h1>
+            <p class="lead">Using your smartphone, tablet, or computer, connect online for a video conference with our trained medical and professional staff! </p>
+            <h2>No Insurance? <span style="color:red;">No Problem!</span></h2>
+            <p class="lead">Live Urgent Care is committed to offering healthcare solutions to everyone and we offer flat rates of $35 per visit to provide you with convenient and affordable care.!</p>
+          </div>
+
+        </div>
+      </div>
+  </body>
+</html>

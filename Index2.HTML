@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Live Urgent Care</title>
+
+    <!-- Link CSS Style sheet-->
+    <link rel="stylesheet" href="css/Style2.css">
+
+    <!-- include these two, JS and bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--favicon link-->
+    <link rel="icon" href="favicon (1).ico">
+
+
+  </head>
+
+
+  <body>
+
+    <!--creates a container holding the navigation bar-->
+    <div class="container">
+
+      <!-- Navigation bar  -->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #9DC7C8;">
+        <!-- creates the brand name  -->
+
+        <a class="navbar-brand" href="Index2.HTML"><span style="color:white">Live</span> <span style="color:red">Urgent</span><span style="color:white"> Care</span></a>
+
+        <!-- creates the hamburger button when the screen is narrow  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="UrgentCare.HTML">Urgent Care</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Telehealth2.Html">Telehealth</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="covidtest.html">Covid Testing</a>
+          </li>
+
+          <li>
+          <!-- Creates the menu button  -->
+          <form class="container-fluid justify-content-end">
+            <button type="button" class="btn btn-outline-light ">Menu</button>
+          </form>
+          </li>
+
+        </nav>
+        <!-- End Navigation bar  -->
+      </div>
+      <!-- closes container div  -->
+
+      <!-- Trio body -->
+      <div class="row trio">
+        <div class="col-md-4">
+           <div class="col-sm-12 shadow"style="background-color: #F8F7F9">
+             <img src="images/stethoscope.png" class="urgentcare-icon" alt="Urgent Care Icon" width="25%">
+             <h1>Urgent Care</h1>
+             <p>Effective, traditional Urgent Care visits with the convenience of walk-ins. Proudly serving Bellmawr, NJ and the surrounding area.</p>
+             <br>
+             <button type="button" class="btn btn-outline-danger">Walk In</button>
+             <a class="btn btn-secondary" href="UrgentCare.html">Learn More</a>
+           </div>
+        </div>
+
+        <div class="col-md-4">
+           <div class="col-sm-12 shadow"style="background-color:#F8F7F9">
+             <img src="images/desktop.png" class="telehealth icon" alt="Telehealth Icon" width="25%">
+             <h1>Telehealth</h1>
+             <p>Busy schedule? Visit with one of our healthcare professionals online for long-distance clinician contact, care, and advice tailored to you. </p>
+             <br>
+             <button type="button" class="btn btn-outline-danger">Register</button>
+             <a class="btn btn-secondary" href="Telehealth2.Html">Learn More</a>
+           </div>
+        </div>
+
+        <div class="col-md-4">
+           <div class="col-sm-12 shadow"style="background-color:#F8F7F9">
+             <img src="images/virus.png" class="covid icon" alt="Covid Test Icon" width="25%" >
+             <h1>Covid-19 Test</h1>
+             <p>Convenient car-side Covid-19 antigen and RT PCR testing. Providing rapid and reliable same-day Covid results throughout New Jersey.</p>
+             <br>
+             <button type="button" class="btn btn-outline-danger">Get Tested</button>
+             <a class="btn btn-secondary" href="covidtest.html">Learn More</a>
+           </div>
+        </div>
+      </div>
+
+
+      <!-- About us body -->
+      <div class="aboutus-landing">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col aboutus">
+            <h1 class="display-4 fw-bold lh-1">About Us</h1>
+            <h2>CEO and Founder, Browlyn Marquez, MSN, FNP-C, APN, created Live Urgent Care in hopes to offer convenient and accessible preventive, general, and family medicine for all.</h2>
+            <p>We strive to take a personalized approach to medicine and our expert providers will work with each patient to find the source of discomfort and develop a customized treatment plan that promotes wellness and vitality, beyond the visit. Each
+            on-staff provider holds years of knowledge and experience while still offering a warm, welcoming, and compassionate bedside manner.</p>
+            <br>
+            <p>Live Urgent Care offers a variety of services, including in-person visits at our Bellmawr, NJ location or convenient online visits from anywhere in the world via your personal device. Offering convenient medicine is our main goal, whether it be
+            at our site with easy walk-ins or at home on your schedule.</p>
+            <br>
+            <p>We also offer rapid COVID-19 results. We provide rapid antigen and guaranteed same-day PCR results at any of our New Jersey Covid-19 testing sites or from the convenience of your own home.</p>
+
+            <a class="btn btn-outline-secondary btn-lg" href="ContactUs.html">Contact Us</a>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- about us body end  -->
+
+
+
+      <!-- Blog Post -->
+      <div class="blog-title">
+        <h1>Blog Articles</h1>
+
+      </div>
+
+      <!-- Carousel  -->
+      <div id="carouselBlog" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner">
+
+          <!-- active indicates first page, must always be marked  -->
+          <div class="carousel-item active" style="background-color:#F8F7F9">
+            <h3>Blog Title 1</h3>
+            <br>
+            <h4>Jan. 25, 2020</h4>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+
+            <div id="blog-btn" class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="button" class="btn btn-outline-secondary btn-lg">Read More</button>
+            </div>
+
+          </div>
+
+          <div class="carousel-item" style="background-color: #F8F7F9;">
+            <h3>Blog Title 2</h3>
+            <br>
+            <h4>Apr 45, 2020</h4>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+
+            <div id="blog-btn" class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="button" class="btn btn-outline-secondary btn-lg">Read More</button>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-color: #F8F7F9;">
+            <h3>Blog Title 3</h3>
+            <br>
+            <h4>Oct. 2, 2019</h4>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+            quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+
+            <div id="blog-btn" class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button type="button" class="btn btn-outline-secondary btn-lg">Read More</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- buttons to change slide, must target specific carousel  -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselBlog" data-bs-slide="prev">
+          <!-- button icon -->
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <!-- aria hidden = true means that a visually impaired person, there will be a screen reader but this portion will be omitted from being read -->
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselBlog" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- blog post body end  -->
+
+
+
+      <!-- navbar footer  -->
+      <nav class="navbar bottom navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="nav-link" href="ContactUs.html">Contact Us</a>
+          <a class="nav-link" href="">Terms & Conditions</a>
+          <a class="nav-link" href="">Accessibility Notice</a>
+
+        </div>
+      </nav>
+
+
+
+  </body>
+</html>
+
+
+<!-- NEED TO CREDIT ICONS  -->
